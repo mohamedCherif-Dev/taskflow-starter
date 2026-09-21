@@ -50,11 +50,10 @@ describe('addTask', () => {
 })
 
 describe('deleteTask', () => {
-  // TODO Jour 3 : Implémenter les tests
-  // - supprimer une tâche existante
-  // - supprimer une tâche inexistante
-  // - vérifier l'immutabilité
-})
+  it('should delete a task correctly', () => {
+    // Ton test ici
+  });
+});
 
 // TODO Jour 3 : Ajouter des tests pour :
 // - toggleTask
