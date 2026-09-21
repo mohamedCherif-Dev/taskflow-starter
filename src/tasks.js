@@ -151,3 +151,5 @@ export function sortByPriority(tasks) {
   const priorityOrder = { high: 0, medium: 1, low: 2 }
   return [...tasks].sort((a, b) => priorityOrder[a.priority] - priorityOrder[b.priority])
 }
+
+
