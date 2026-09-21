@@ -153,6 +153,3 @@ export function sortByPriority(tasks) {
 }
 
 
-export function countTasks(tasks) {
-  return tasks.length;
-}
