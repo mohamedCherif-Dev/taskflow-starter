@@ -66,7 +66,19 @@ describe('deleteTask', () => {
 
 describe('countTasks', () => {
   it('should return the correct number of tasks', () => {
-    const tasks = [{ id: 1 }, { id: 2 }];
-    expect(countTasks(tasks)).toBe(2);
+    const tasks = [
+      { id: 1, completed: false },
+      { id: 2, completed: false }
+    ];
+    
+    // Soit on vérifie la structure complète :
+    expect(countTasks(tasks)).toEqual({
+      total: 2,
+      active: 2,
+      completed: 0
+    });
+
+    // Soit on vérifie uniquement la propriété total :
+    // expect(countTasks(tasks).total).toBe(2);
   });
 });
