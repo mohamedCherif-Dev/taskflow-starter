@@ -1,8 +1,5 @@
 # TaskFlow
-
-> Application de gestion de tâches - Projet fil rouge CI/CD
-
-[![CI](https://github.com/VOTRE-USERNAME/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/VOTRE-USERNAME/taskflow/actions/workflows/ci.yml)
+[![CI](https://github.com/mohamedCherif-Dev/taskflow-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/mohamedCherif-Dev/taskflow-starter/actions/workflows/ci.yml)
 
 ## Description
 
