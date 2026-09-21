@@ -4,7 +4,7 @@
  * Ce module contient la logique métier de l'application.
  * Les données sont persistées dans le localStorage.
  */
-const unusedVariable = 'test';
+
 const STORAGE_KEY = 'taskflow-tasks'
 
 /**
