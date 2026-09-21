@@ -9,6 +9,7 @@
 
 import { describe, it, expect } from 'vitest'
 import { createTask, addTask, deleteTask } from '../src/tasks.js'
+import { countTasks } from '../src/tasks.js';
 
 describe('createTask', () => {
   it('devrait créer une tâche avec les propriétés par défaut', () => {
@@ -61,3 +62,11 @@ describe('deleteTask', () => {
 // - clearCompleted
 // - countTasks
 // - sortByPriority
+
+
+describe('countTasks', () => {
+  it('should return the correct number of tasks', () => {
+    const tasks = [{ id: 1 }, { id: 2 }];
+    expect(countTasks(tasks)).toBe(2);
+  });
+});
